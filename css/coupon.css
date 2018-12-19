@@ -193,6 +193,9 @@ body {
     border-radius: 0px 0px 10px 10px;
     padding-top: 10px;
   }
+  .c.coupon_box_bottom{
+    display: none;
+  }
   .coupon_box_bottom_check p {
     color: #fff;
   }

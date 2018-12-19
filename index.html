@@ -122,23 +122,10 @@
         Coupon[i].addEventListener("click", function() {
           if (Payment[i].classList.contains("active")) {
             Payment[i].classList.remove("active");
+            Coupon[i].classList.remove("c");
           } else {
-            for (let j = 0; j < Payment.length; j++) {
-              Payment[j].classList.remove("active");
-            }
             Payment[i].classList.add("active");
-          }
-        });
-      }
-      for (let i = 0; i < Payment.length; i++) {
-        Payment[i].addEventListener("click", function() {
-          if (Coupon[i].classList.contains("active")) {
-            Coupon[i].classList.remove("active");
-          } else {
-            for (let j = 0; j < Coupon.length; j++) {
-              Coupon[j].classList.remove("active");
-            }
-            Coupon[i].classList.add("active");
+            Coupon[i].classList.add("c");
           }
         });
       }
