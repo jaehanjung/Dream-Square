@@ -293,17 +293,53 @@ body {
     background-color: #ededed;
     margin-top: 15px;
   }
-  .My_coupons_footer p {
-    padding: 10px 25px;
-  }
-  .My_coupons_footer span {
-    display: inline-block;
-    padding: 0px 25px;
-  }
   .Notice {
     background-color: #fff;
+    padding: 10px 25px;
   }
   .Notice p {
+    position: relative;
+    font-size: 15px;
     font-weight: bold;
+  }
+  .icon-angle-down {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .icon-angle-up {
+    display: none;
+    position: absolute;
+    right: 0;
+  }
+
+  .Notice_Contents p {
+    padding: 10px 25px 2px 25px;
+    color: #111;
+    font-size: 14px;
+  }
+  .Notice_Contents span {
+    display: inline-block;
+    padding: 0px 25px;
+    color: #777777;
+    font-size: 12px;
+  }
+  .Notice_Contents {
+    display: none;
+  }
+  .active.Notice_Contents {
+    display: block;
+  }
+  .c.icon-angle-up {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .icon-angle-down {
+    display: block;
+  }
+  .c.icon-angle-down {
+    display: none;
   }
 }
