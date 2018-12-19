@@ -176,6 +176,15 @@ body {
   .coupon_box_bottom p {
     color: #fff;
   }
+  .coupon_box_bottom span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+  }
+  .coupon_box_bottom img{
+    width: 20px;
+    height: 20px;
+  }
   .icon-download {
     color: #fff;
   }
@@ -196,8 +205,18 @@ body {
   .c.coupon_box_bottom{
     display: none;
   }
+  
   .coupon_box_bottom_check p {
     color: #fff;
+  }
+  .coupon_box_bottom_check span{
+      position: relative;
+    top: 3px;
+    left: 5px;
+  }
+  .coupon_box_bottom_check img{
+    width: 20px;
+    height: 20px;
   }
   .icon-ok-outline {
     color: #fff;
